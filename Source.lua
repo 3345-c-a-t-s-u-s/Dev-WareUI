@@ -160,7 +160,7 @@ function Devware:CreateWindow(TitleStr : string)
 	Frame.BorderSizePixel = 0
 	Frame.ClipsDescendants = true
 	Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
-	Frame.Size = UDim2.new(0.35, 0, 0.35, 0)
+	Frame.Size = UDim2.new(0.3,0,0.35,0)
 
 	UICorner.Parent = Frame
 
